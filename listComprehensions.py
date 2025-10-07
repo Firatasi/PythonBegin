@@ -31,3 +31,13 @@ print(yy)
 sicakliklar = [10, 20, 30, 40, 50]
 farenheit = [((9/5) * derece + 32) for derece in sicakliklar]
 print(farenheit)
+
+words = ["hello", "world", "python", "is", "awesome"]
+modified_words = [word if len(word)>3 else "kısa kelime" for word in words]
+print(modified_words)
+
+notlar = [55, 70, 85, 100, 90]
+harf_notlari = ["A" if not_ >= 90 else "B" if not_ >= 80 else "C" if not_ >= 55 else "D" for not_ in notlar]
+print(harf_notlari)
+
+
