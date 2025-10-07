@@ -21,3 +21,13 @@ print(listem)
 cift_sayilar = [sayi for sayi in range(1, 101) if sayi % 2 == 0]
 print(cift_sayilar)
 
+numbers = [-1, -2, 0, 1, 2]
+pozitif_sayilar = [num for num in numbers if num > 0]
+print(pozitif_sayilar)
+
+yy = ["çift sayi" if num % 2 == 0 else "tek sayi" for num in range(8)]
+print(yy)
+
+sicakliklar = [10, 20, 30, 40, 50]
+farenheit = [((9/5) * derece + 32) for derece in sicakliklar]
+print(farenheit)
